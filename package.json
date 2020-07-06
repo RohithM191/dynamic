@@ -1,0 +1,28 @@
+{
+  "name": "dynamic-form",
+  "version": "0.2.3",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "npm run format && next build",
+    "start": "npm run format && next start",
+    "format": "prettier --write ./"
+  },
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.5",
+    "apollo-boost": "^0.4.9",
+    "apollo-server-micro": "^2.15.0",
+    "graphql": "^15.1.0",
+    "mongodb": "^3.5.9",
+    "next": "9.4.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "sass": "^1.26.9",
+    "typeorm": "^0.2.25",
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.10.3",
+    "prettier": "^2.0.5"
+  }
+}
